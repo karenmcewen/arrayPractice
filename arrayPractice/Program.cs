@@ -70,22 +70,22 @@ namespace arrayPractice
             //Console.WriteLine(Array.LastIndexOf(birthMonths,"July"));//lastIndexOf returns the last instance
 
             //reverse the order of our array
-            int[] numbers = { 2, 3, 5, 7, 10, -2, 4, 897, 0 };
-            Console.WriteLine(numbers[0]);
-            Array.Reverse(numbers); 
-            Console.WriteLine(numbers[0]);
+            //int[] numbers = { 2, 3, 5, 7, 10, -2, 4, 897, 0 };
+            //Console.WriteLine(numbers[0]);
+            //Array.Reverse(numbers); 
+            //Console.WriteLine(numbers[0]);
 
             //sort the array in c# (some other languages don't do this)
             //can use for strings, too, but lowercase comes before uppercase
-            Array.Sort(numbers);
-            Console.WriteLine(numbers[0]);
-            Console.WriteLine(numbers[numbers.Length-1]);
+            //Array.Sort(numbers);
+            //Console.WriteLine(numbers[0]);
+            //Console.WriteLine(numbers[numbers.Length-1]);
 
 
 
-            //Declare and initialize a string array of first names. Choose a name to find and print the IndexOf.
-            string[] firstNames2 = { "bob", "tom", "hal", "joe" };
-            Console.WriteLine(Array.IndexOf(firstNames2, "joe"));
+            ////Declare and initialize a string array of first names. Choose a name to find and print the IndexOf.
+            //string[] firstNames2 = { "bob", "tom", "hal", "joe" };
+            //Console.WriteLine(Array.IndexOf(firstNames2, "joe"));
 
             //Create an array of lucky numbers. Each number should repeat at least once. 
             //Choose a lucky number, find and print the last index of it.
@@ -103,7 +103,7 @@ namespace arrayPractice
 
             //Create an array of student names in random order. Order the students’ names using the sort method. 
             //Print the first and last students’ names.
-            string[] studentsNames = { "bob", "tom", "hal", "joe" };
+            string[] studentsNames = { "joey","bob", "tom", "hal", "joe" };
             Array.Sort(studentsNames);
             Console.WriteLine(studentsNames[0]);
             Console.WriteLine(studentsNames[studentsNames.Length-1]);
